@@ -42,8 +42,8 @@ var (
 
 var rootCmd = &cobra.Command{
 	Use:   "wapscout",
-	Short: "WapScout — Technology Detection CLI",
-	Long: `WapScout is a fast CLI tool for detecting web technologies.
+	Short: "wapscout — Technology Detection CLI",
+	Long: `wapscout is a fast CLI tool for detecting web technologies.
 It leverages the wappalyzergo library to fingerprint URLs and identify
 frameworks, CMS, servers, analytics, and much more.
 

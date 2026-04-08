@@ -151,7 +151,7 @@ cat urls.txt | ./wapscout scan -
 | `--timeout` | `-t` | `15` | HTTP timeout in seconds |
 | `--proxy` | `-p` | — | Proxy URL (e.g. `http://127.0.0.1:8080`) |
 | `--insecure` | — | `false` | Ignore TLS errors |
-| `--user-agent` | `-u` | WapScout UA | Custom User-Agent |
+| `--user-agent` | `-u` | wapscout/1.0 UA | Custom User-Agent |
 | `--header` | `-H` | — | HTTP header (repeatable: `-H "X-Token: abc"`) |
 | `--no-redirect` | — | `false` | Do not follow redirects |
 | `--no-color` | — | `false` | Disable colors |

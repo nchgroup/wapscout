@@ -41,7 +41,7 @@ func DefaultOptions() Options {
 		Timeout:        15 * time.Second,
 		FollowRedirect: true,
 		MaxRedirects:   10,
-		UserAgent:      "Mozilla/5.0 (compatible; WapScout/1.0; +https://github.com/wapscout)",
+		UserAgent:      "Mozilla/5.0 (compatible; wapscout/1.0)",
 		InsecureSkip:   false,
 		Concurrency:    5,
 	}
